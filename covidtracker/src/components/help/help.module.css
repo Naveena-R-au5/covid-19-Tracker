@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.MuiTableroot{
+    background-color: red;
+}
+
+.footer{
+/* display:initial !important; */
+  width:100% !important;
+  /* position: fixed; */
+  bottom: 0 !important ;
+  left:0 !important;
+  height:100%;
+  margin-top: 70px;
+  background-color: rgb(143, 4, 4);
+  color:white !important;
+}
+.footele{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-weight: lighter !important;
+    padding:5px;
+}
+
+.copy{
+    padding: 15px !important;
+    font-weight: lighter !important;
+}
+
+.head{
+    font-family: 'Gayathri', sans-serif;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 770px) {
+    .footele{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+        font-weight: lighter !important;
+        padding:5px;
+    } 
+    .copy{
+        padding: 5px !important;
+        font-weight: lighter !important;
+    }
+    .cont{
+        width:80% !important;
+    }
+    .tab{
+        width:100% !important;
+    }
+    .head{
+        font-family: 'Gayathri', sans-serif;
+        margin-top: 30px;
+        font-size:20px ;
+    }
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.head{
+    font-family: 'Gayathri', sans-serif;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 770px) {
+ .pp{
+     width:100% !important;
+ }
+ .head{
+    font-family: 'Gayathri', sans-serif;
+    margin-top: 30px;
+    font-size:20px;
+}
+}

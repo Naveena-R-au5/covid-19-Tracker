@@ -1,0 +1,30 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50% !important;
+    background-color: grey !important;
+}
+
+canvas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center !important;
+    width:80% !important;
+    margin-left: 10%;
+    height:20% !important;
+    
+    
+}
+
+@media only screen and (max-width: 770px) {
+   canvas{
+     display:flex;
+    flex-direction: column;
+    justify-content: center !important;
+    width:100% !important;
+    margin-left: 0%;
+    height:100% !important;
+   }
+
+}
